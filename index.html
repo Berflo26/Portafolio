@@ -26,14 +26,14 @@
     ></script>
   </head>
   <body>
-      <!--Barra de navegación-->
+    <!--Barra de navegación-->
     <header id="header-container">
       <nav id="navbar" class="navbar">
         <label class="logo" for="logo">BerfloWeb</label>
         <ul>
-          <li><a href="">About</a></li>
-          <li><a href="">Work</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#welcome-section">About</a></li>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
         <label id="icon" for="icon">
           <i class="fa fa-bars"></i>
@@ -41,17 +41,30 @@
       </nav>
     </header>
     <br /><br /><br />
-<!--Portada-->
+    <!--Portada-->
     <section id="welcome-section" class="welcome-section__container">
       <h1>Hey I am Berflo</h1>
       <p>a frontend web developer</p>
     </section>
+    <br />
     <main>
+      <!--Main content-->
       <section id="projects" class="projects-container">
-        <h1>These are some of my projects</h1>
+        <h1 class="text-main">These are some of my projects</h1>
+        <hr />
+        <br />
+        <figure class="main-conten">
+          <img class="img-main" src="./img1.PNG" alt="" /><br />
+
+          <img class="img-main" src="./img2.PNG" alt="" /><br />
+
+          <img class="img-main" src="./img3.PNG" alt="" /><br />
+        </figure>
       </section>
     </main>
-    <footer class="pie-pagina">
+<br><br>
+    <!--Footer-->
+    <footer class="pie-pagina" id="contact">
       <div class="grupo-1">
         <div class="box">
           <figure>
@@ -62,19 +75,27 @@
         </div>
         <div class="box">
           <h2>SOBRE MI</h2>
-          <p>
-           Soy un desarrollador frontend
-          </p>
-          <p>
-            Contacta conmigo
-          </p>
+          <p>Soy un desarrollador frontend</p>
+          <p>Contacta conmigo</p>
         </div>
         <div class="box">
           <h2>SIGUEME</h2>
           <div class="red-social">
-            <a href="https://www.linkedin.com/in/berflo/" class="fa fa-linkedin" target="__blank"></a>
-            <a href="https://www.instagram.com/berflo26/" class="fa fa-instagram" target="__blank"></a>
-           
+            <a
+              href="https://github.com/Berflo26"
+              class="fa fa-github"
+              target="__blank"
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/berflo/"
+              class="fa fa-linkedin"
+              target="__blank"
+            ></a>
+            <a
+              href="https://www.instagram.com/berflo26/"
+              class="fa fa-instagram"
+              target="__blank"
+            ></a>
           </div>
         </div>
       </div>

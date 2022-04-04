@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  list-style: none;
+  list-style: none; 
 }
 body {
   font-family: Montserrat;
@@ -23,7 +23,7 @@ header {
   background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
 }
 .navbar {
-  max-width: 1200px;
+  max-width: 1190px;
   height: 100%;
   margin: auto;
   display: flex;
@@ -97,7 +97,20 @@ nav #icon {
 .welcome-section__container h1 {
   font-size: 2.7rem;
 }
-/*:::::Pie de Pagina*/
+/*Proyectos*/
+.text-main{
+ text-align: center;
+}
+.main-conten{
+ display: flex;
+}
+.img-main{
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  
+}
+/*Footer*/
 .pie-pagina {
   width: 100%;
   background-color: #8ec5fc;
